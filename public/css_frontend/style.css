@@ -1,0 +1,107 @@
+*{
+    margin:0;
+    padding:0;
+    border: box 0;
+}
+body{
+    background-color:rgb(249, 249, 249);
+    background-image:url("rdr2.jpg");
+    background-size:cover;
+    
+}
+.container1{
+    display:flex;
+    flex-direction:column;
+    gap:25px;
+    margin-top:35px;
+    padding:15px;
+    margin-left:30vw;
+    margin-right:30vw;
+    height:80vh;   
+    align-items:center; 
+    background-color:rgba(240, 255, 255, 0.345);
+    box-shadow: rgba(0, 0, 0, 0.547) 10px 10px 25px;
+}
+.main-header{
+    color:black;
+    font-family:sans-serif;
+    font-size:50px; 
+}
+.subcontainer2{
+    display:flex;
+    flex-direction: column;
+    gap:10px;
+}
+.in1{
+    display:flex;
+    flex-direction:column;
+    gap:10px;
+}
+.in2{
+    border:none;
+    background-color:rgb(255, 255, 255);
+    box-shadow: 1px 1px 1px 1px rgb(0, 0, 0);
+    border-radius:8px;
+    width:30vw; 
+    height:30px;
+    color:black;        
+    font-family:monospace;
+    font-size:18px;   
+}
+.submit{
+    width:fit-content;
+    align-self:flex-end;
+    background-color:white;
+    font-family:Tahoma;
+    border-radius:3px;
+    font-size:18px;
+    border:none; 
+    box-shadow:rgba(0, 0, 0, 0.456) 2px 2px 3px;   
+}
+.subcontaienr4{
+    font-size:20px;
+    font-family:'times new r    oman';
+    max-height:48vh;
+      width:30vw;
+    display:flex;
+    flex-direction:column;
+    gap:5px;    
+}
+li{
+    background-color:rgb(200, 231, 231);
+    list-style:none; 
+    padding:8   px;
+    border-radius:6px;
+    width:30vw;     
+    display:flex;
+    gap:22px;
+    color:rgb(78, 77, 77);
+    
+}
+.list{
+    width:30vw;     
+    margin-top:22px;
+    display:flex;
+    flex-direction:column;  
+    gap:22px;
+    max-height:45vh;
+    overflow:auto;      
+}
+.list::-webkit-scrollbar {
+  display: none;
+}
+img{
+    height:22px;
+}
+.content{
+    display:flex;
+    gap:10px;
+}
+button{
+    border:none;
+    height:fit-content;
+}
+.del{
+    display:flex;
+    align-self:flex-end;
+}
