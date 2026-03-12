@@ -1,8 +1,8 @@
 # Todo_Project
 Made With HTML,CSS,JS,Node.js(Express.js),MongoDB
 
-Pre-Requisite
-  1.Node.js is Installed
+Pre-Requisite\n
+  1.Node.js is Installed\n
   2.Select Directory for Cloning
   3.Fill  .env (Mongodb connection link) 
 
